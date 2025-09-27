@@ -77,7 +77,7 @@ This project is configured for automatic deployment to GitHub Pages using GitHub
 ### Manual Deployment:
 If you prefer to deploy manually:
 
-1. Build the static files:
+1. Build the static files :
 ```bash
 npm run build
 ```
