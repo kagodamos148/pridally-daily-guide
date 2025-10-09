@@ -63,6 +63,14 @@ export default {
           energy: "hsl(var(--energy-orange))",
           focus: "hsl(var(--focus-indigo))",
         },
+        pride: {
+          celestial: "#70B9F0",
+          emerald: "#1CA75B", 
+          ruby: "#C41E3A",
+          amber: "#F2B63D",
+          peach: "#F7C4BD",
+          lavender: "#B59EDC",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -85,6 +93,10 @@ export default {
         "gradient-calm": "var(--gradient-calm)",
         "gradient-hero": "var(--gradient-hero)",
         "gradient-card": "var(--gradient-card)",
+        "gradient-pride": "linear-gradient(135deg, #70B9F0, #1CA75B, #C41E3A, #F2B63D, #F7C4BD, #B59EDC)",
+        "gradient-celestial": "linear-gradient(135deg, #70B9F0, #B59EDC)",
+        "gradient-vibrant": "linear-gradient(135deg, #C41E3A, #F2B63D)",
+        "gradient-soft": "linear-gradient(135deg, #F7C4BD, #70B9F0)",
       },
       boxShadow: {
         soft: "var(--shadow-soft)",
