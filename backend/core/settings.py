@@ -21,8 +21,6 @@ ALLOWED_HOSTS = config(
 # APPLICATIONS
 
 INSTALLED_APPS = [
-    'apps.users',  # 👈 MUST BE FIRST
-
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -37,6 +35,7 @@ INSTALLED_APPS = [
     'drf_spectacular',
 
     # Local apps
+    'apps.users',
     'apps.health',
     'apps.appointments',
 ]
@@ -59,7 +58,6 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'core.urls'
 
-WSGI_APPLICATION = 'core.wsgi.application'
 
 # TEMPLATES
 
@@ -78,6 +76,8 @@ TEMPLATES = [
         },
     },
 ]
+
+WSGI_APPLICATION = 'core.wsgi.application'
 
 # DATABASE
 
